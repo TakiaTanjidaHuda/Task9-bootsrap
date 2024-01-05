@@ -1,0 +1,24 @@
+.carousel-caption{
+    transform: translateY(-50);
+    bottom: initial;
+    top: 30%;
+}
+.silderhead{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 65px;
+}
+.carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.carousel-item{
+    position: relative;
+}
+.black-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
