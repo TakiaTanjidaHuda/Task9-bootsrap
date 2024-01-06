@@ -28,3 +28,21 @@ h4, h6,h1,p{
 .row p{
     font-family: 'Poppins', sans-serif;
 }
+.img-wrapper{
+    max-width: 100px;
+    height: 4vw;
+    border: 1px solid black;
+}
+@media screen and (min-width:576px) {
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/2);
+    }
+    .card{
+        margin: 0.5em;
+    }
+}
